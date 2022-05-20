@@ -32,13 +32,13 @@ public class Lesson extends AbsLongEntity {
     @JoinColumn(name = "video_id")
     Attachment video;
 
-    @OneToMany(mappedBy = "lesson", orphanRemoval = true)
-    @ToString.Exclude
-    List<Resource> resources;
+//    @OneToMany(mappedBy = "lesson", orphanRemoval = true)
+//    @ToString.Exclude
+//    List<Resource> resources;
 
-    @OneToMany(mappedBy = "lesson", orphanRemoval = true)
-    @ToString.Exclude
-    List<LessonStatusForUser> lessonStatusForUsers;
+//    @OneToMany(mappedBy = "lesson", orphanRemoval = true)
+//    @ToString.Exclude
+//    List<LessonStatusForUser> lessonStatusForUsers;
 
     @Override
     public boolean equals(Object o) {

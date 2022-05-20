@@ -1,1 +1,0 @@
-insert into courses(id, name, price, ['ca6bdafc-b7a8-4adc-803a-5047d34d2a84'])

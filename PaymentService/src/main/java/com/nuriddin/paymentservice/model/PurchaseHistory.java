@@ -1,6 +1,7 @@
 package com.nuriddin.paymentservice.model;
 
 
+import com.example.courseservice.entity.Course;
 import com.nuriddin.paymentservice.model.enums.PaymentStatus;
 import com.nuriddin.paymentservice.model.template.AbsLongEntity;
 import lombok.*;

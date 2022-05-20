@@ -22,8 +22,8 @@ import java.util.UUID;
 @ToString
  
 @MappedSuperclass
-@EntityListeners(
-        AuditingEntityListener.class)
+//@EntityListeners(
+//        AuditingEntityListener.class)
 public abstract class AbsMainEntity {
 
     @OrderBy

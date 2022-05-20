@@ -4,8 +4,7 @@ package com.amigoscode.clients.auth;
 // t.me/superJavaDeveloper 15.04.2022;
 
 
-import com.example.authservice.entity.UserRole;
-import com.example.authservice.entity.template.AbsUUIDEntity;
+import com.amigoscode.clients.template.AbsUUIDEntity;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import org.hibernate.Hibernate;
